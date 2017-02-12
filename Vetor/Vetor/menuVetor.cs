@@ -39,8 +39,9 @@ namespace Vetor
         //Após clicar ele irá incluir o nome no vetor
         private void btnIncluir_Click(object sender, EventArgs e)
         {
+            txtNome.Focus();
 
-            if(txtNome.Text != string.Empty)
+            if (txtNome.Text != string.Empty)
             {
                 if (count <= 9)
                 {
